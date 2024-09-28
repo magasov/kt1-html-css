@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+section {
+    margin: 100px 0;
+}
+
+body {
+    background: #000000;
+    color: #fff;
+    padding: 0 12%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a{
+    color: #fff;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.save {
+    margin: 120px;
+}
+
+.service__images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.travel__one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.travel__two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.travel__three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.travel__one-left p{
+    width: 602px;
+}
+
+.last {
+    width: 100%;
+    height: 859px;
+    background: url(./img/last-background.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.last h2 {
+    width: 582px;
+    margin-top: 200px;
+}
+
+.last p {
+    width: 477px;
+}
+
+.messangers a{
+    color: #fff;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
